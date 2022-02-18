@@ -1,7 +1,8 @@
 document.getElementById('submit-btn').addEventListener('click', function () {
     //Get email
     const emailField = document.getElementById('user-email')
-    const userEmail = emailField.value
+    const userEmailValue = emailField.value
+    const userEmail = userEmailValue.toLowerCase()
 
     //Get Password
     const passwordField = document.getElementById('user-password')
