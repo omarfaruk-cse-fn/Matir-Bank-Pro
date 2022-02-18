@@ -21,8 +21,6 @@ function getUpdateValue(fieldId, amount) {
     return total
 }
 function getUpdateBalance(amount, isAdd) {
-    // const balanceTag = document.getElementById('balance-total')
-    // const balanceInTex = balanceTag.innerText
     const previousBalance = getinnertextValue('balance-total')
     let balance
     if (isAdd) {
